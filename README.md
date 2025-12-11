@@ -13,6 +13,7 @@ Interview preparation for SQL-heavy roles
 Database Overview
 
 The database contains 3 main tables:
+1.Book Table
 
 | Column         | Description             |
 | -------------- | ----------------------- |
@@ -24,12 +25,16 @@ The database contains 3 main tables:
 | stock          | Current available stock |
 | published_year | Publication year        |
 
+2.Customer Table
+
 | Column      | Description        |
 | ----------- | ------------------ |
 | customer_id | Unique customer ID |
 | name        | Customer name      |
 | city        | City               |
 | country     | Country            |
+
+3.Order Table
 
 | Column       | Description      |
 | ------------ | ---------------- |
@@ -54,8 +59,8 @@ Aggregation queries (SUM, COUNT, AVG)
 
 Sorting and limiting results
 
-**Advanced SQL Queries
-**
+**Advanced SQL Queries**
+
 Advanced analytical queries include:
 
 Most frequently ordered book
