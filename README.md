@@ -1,2 +1,71 @@
-# online-book-store-sql-project
-SQL project demonstrating database design and analytical queries using MySQL
+# Online Book Store — SQL Project
+This project represents a complete SQL-based case study for an Online Book Store.
+It includes database creation, table design, sample data, basic SQL queries, advanced analytical queries, and insights using MySQL.
+
+This project is ideal for:
+
+SQL beginners to practice real-world queries
+
+Resume portfolio for analytics 
+
+Interview preparation for SQL-heavy roles
+
+Database Overview
+
+The database contains 3 main tables:
+
+| Column         | Description             |
+| -------------- | ----------------------- |
+| book_id        | Unique ID               |
+| title          | Book title              |
+| author         | Name of the author      |
+| genre          | Fiction / Fantasy / etc |
+| price          | Book price              |
+| stock          | Current available stock |
+| published_year | Publication year        |
+
+| Column      | Description        |
+| ----------- | ------------------ |
+| customer_id | Unique customer ID |
+| name        | Customer name      |
+| city        | City               |
+| country     | Country            |
+
+| Column       | Description      |
+| ------------ | ---------------- |
+| order_id     | Unique order ID  |
+| book_id      | FK → books       |
+| customer_id  | FK → customers   |
+| quantity     | Quantity ordered |
+| total_amount | Price × quantity |
+| order_date   | Date of purchase |
+
+**Basic SQL Queries:**
+
+The project includes basic SQL operations such as:
+
+Retrieving books by genre
+
+Finding recently published books
+
+Filtering orders by date
+
+Aggregation queries (SUM, COUNT, AVG)
+
+Sorting and limiting results
+
+**Advanced SQL Queries
+**
+Advanced analytical queries include:
+
+Most frequently ordered book
+
+Total books sold per genre
+
+Customers with 2+ orders
+
+Revenue calculations
+
+Stock remaining after orders
+
+Top spending customer
