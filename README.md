@@ -47,30 +47,30 @@ The database contains 3 main tables:
 
 **Basic SQL Queries:**
 
-The project includes basic SQL operations such as:
+1.The project includes basic SQL operations such as:
 
-Retrieving books by genre
+2.Retrieving books by genre
 
-Finding recently published books
+3.Finding recently published books
 
-Filtering orders by date
+4.Filtering orders by date
 
-Aggregation queries (SUM, COUNT, AVG)
+5.Aggregation queries (SUM, COUNT, AVG)
 
-Sorting and limiting results
+6.Sorting and limiting results
 
 **Advanced SQL Queries**
 
 Advanced analytical queries include:
 
-Most frequently ordered book
+1.Most frequently ordered book
 
-Total books sold per genre
+2.Total books sold per genre
 
-Customers with 2+ orders
+3.Customers with 2+ orders
 
-Revenue calculations
+4.Revenue calculations
 
-Stock remaining after orders
+5.Stock remaining after orders
 
-Top spending customer
+6.Top spending customer
