@@ -1,4 +1,4 @@
-# Online Book Store — SQL Project
+# Online Book Store
 This project represents a complete SQL-based case study for an Online Book Store.
 It includes database creation, table design, sample data, basic SQL queries, advanced analytical queries, and insights using MySQL.
 
